@@ -1,367 +1,242 @@
 body {
-	background-color: #EFEFEF;
+background-color: #EFEFEF;
 }
 .shape {
-	margin: auto;
+margin: auto;
 }
-.one {
-	width: 0;
-	height: 0;
-	border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
-	border-bottom: 40px solid #FF0000;
-}
-.one:hover {
-	border-bottom: 40px solid #FF0000;
-}
-.button1 {
-  position: absolute;
+.circle1 {
+    position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 667.5px;
-    top: 90px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
+    margin-left: auto;
+    margin-right: auto;
+    left: 70px;
+    top: 40px;
+    height: 140px;
+    width: 140px;
+    background-color: #2D3033;
     border-radius: 50%;
 }
-.button7 {
-  position: absolute;
+#circle2 {
+    position: absolute;
+    display: block;
+    left: 650px;
+    top: 70px;
+    height: 70px;
+    width: 70px;
+    background-color: #7CFC00;
+    border-radius: 50%;
+    border: 3px solid #2D3033;
+    outline-style: solid #2D3033;
+    outline-color: rgb(255,130,255);
+}
+#circle3 {
+    position: absolute;
+    display: block;
+    left: 780px;
+    top: 70px;
+    height: 70px;
+    width: 70px;
+    background-color: #FF0000;
+    border-radius: 50%;
+    border: 3px solid #2D3033;
+    outline-style: solid #2D3033;
+    outline-color: rgb(255,130,255);
+}
+#circle4 {
+    position: absolute;
+    display: block;
+    left: 650px;
+    top: 210px;
+    height: 70px;
+    width: 70px;
+    background-color: #FFFF00;
+    border-radius: 50%;
+    border: 3px solid #2D3033;
+    outline-style: solid #2D3033;
+    outline-color: rgb(255,130,255);
+}
+#circle5 {
+    position: absolute;
+    display: block;
+    left: 780px;
+    top: 210px;
+    height: 70px;
+    width: 70px;
+    background-color: #4169E1;
+    border-radius: 50%;
+    border: 3px solid #2D3033;
+    outline-style: solid #2D3033;
+    outline-color: rgb(255,130,255);
+}
+.circle6 {
+    position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 25px;
-    left: 677.5px;
-    top: 90px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
+    margin-left: auto;
+    margin-right: auto;
+    left: 70px;
+    top: 120px;
+    height: 140px;
+    width: 140px;
+    background-color: #2D3033;
     border-radius: 50%;
 }
-.button13 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 687.5px;
-    top: 90px;
-    color: white;
+#circle7 {
+    position: absolute;
+    display: block;
+    left: 650px;
+    top: 295px;
+    height: 70px;
+    width: 70px;
+    background-color: #7CFC00;
+    border-radius: 50%;
+    border: 3px solid #2D3033;
+    outline-style: solid #2D3033;
+    outline-color: rgb(255,130,255);
+}
+#circle8 {
+    position: absolute;
+    display: block;
+    left: 780px;
+    top: 295px;
+    height: 70px;
+    width: 70px;
+    background-color: #FF0000;
+    border-radius: 50%;
+    border: 3px solid #2D3033;
+    outline-style: solid #2D3033;
+    outline-color: rgb(255,130,255);
+}
+#circle9 {
+    position: absolute;
+    display: block;
+    left: 650px;
+    top: 425px;
+    height: 70px;
+    width: 70px;
+    background-color: #FFFF00;
+    border-radius: 50%;
+    border: 3px solid #2D3033;
+    outline-style: solid #2D3033;
+    outline-color: rgb(255,130,255);
+}
+#circle10 {
+    position: absolute;
+    display: block;
+    left: 780px;
+    top: 425px;
+    height: 70px;
+    width: 70px;
+    background-color: #4169E1;
+    border-radius: 50%;
+    border: 3px solid #2D3033;
+    outline-style: solid #2D3033;
+    outline-color: rgb(255,130,255);
+}
+#display1 {
+    position: absolute;
+    display: block;
+    left: 700px;
+    top: 170px;
+    height: 17px;
+    width: 20px;
+    text-align: center;
     border: 0.10px solid black;
-    background-color: #808080;
+    background-color: #DCDCDC;
+    border-radius: 10%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+}
+#display2 {
+    position: absolute;
+    display: block;
+    left: 780px;
+    top: 170px;
+    height: 17px;
+    width: 20px;
+    text-align: center;
+    border: 0.10px solid black;
+    background-color: #DCDCDC;
+    border-radius: 10%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+}
+#start-btn1 {
+    position: absolute;
+    display: block;
+    left: 725px;
+    top: 170px;
+    height: 17px;
+    width: 50px;
+    text-align: center;
+    border: 0.10px solid black;
+    background-color: #DCDCDC;
+    border-radius: 10%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 9px;
+}
+#display3 {
+    position: absolute;
+    display: block;
+    left: 700px;
+    top: 390px;
+    height: 17px;
+    width: 20px;
+    text-align: center;
+    border: 0.10px solid black;
+    background-color: #DCDCDC;
+    border-radius: 10%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+}
+#display4 {
+    position: absolute;
+    display: block;
+    left: 780px;
+    top: 390px;
+    height: 17px;
+    width: 20px;
+    text-align: center;
+    border: 0.10px solid black;
+    background-color: #DCDCDC;
+    border-radius: 10%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+}
+#start-btn2 {
+    position: absolute;
+    display: block;
+    left: 725px;
+    top: 390px;
+    height: 17px;
+    width: 50px;
+    text-align: center;
+    border: 0.10px solid black;
+    background-color: #DCDCDC;
+    border-radius: 10%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 9px;
+}
+#light1 {
+    position: absolute;
+    display: block;
+    left: 750px;
+    top: 195px;
+    height: 7px;
+    width: 7px;
+    text-align: center;
+    border: 0.10px solid black;
+    background-color: #FF0000;
     border-radius: 50%;
 }
-.tabular {
-  font-family: monospace;
-}
-.gap {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #EFEFEF;
-}
-.two {
-	border-bottom: 40px solid #FFA500;
-	border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
-	height: 0;
-	width: 60px;
-}
-.two:hover {
-	border-bottom: 40px solid #FFA500;
-}
-.button2 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 667.5px;
-    top: 135px;
-    color: white;
+#light2 {
+    position: absolute;
+    display: block;
+    left: 750px;
+    top: 415px;
+    height: 7px;
+    width: 7px;
+    text-align: center;
     border: 0.10px solid black;
-    background-color: #808080;
+    background-color: #008000;
     border-radius: 50%;
 }
-.button8 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 25px;
-    left: 677.5px;
-    top: 135px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
-}
-.button14 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 687.5px;
-    top: 135px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
-}
-.tabular {
-  font-family: monospace;
-}
-.gap {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #EFEFEF;
-}
-.three {
-	border-bottom: 40px solid #FFFF00;
-	border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
-	height: 0;
-	width: 120px;
-}
-.three:hover {
-	border-bottom: 40px solid #FFFF00;
-}
-.button3 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 667.5px;
-    top: 185px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
-}
-.button9 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 25px;
-    left: 677.5px;
-    top: 185px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
-}
-.button15 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 687.5px;
-    top: 185px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
-}
-.tabular {
-  font-family: monospace;
-}
-.four {
-  border-bottom: 40px solid #4682B4;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  height: 0;
-  width: 180px;
-}
-.four:hover {
-  border-bottom: 40px solid #4682B4;
-}
-.button4 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 667.5px;
-    top: 225px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
-}
-.button10 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 25px;
-    left: 677.5px;
-    top: 225px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
-}
-.button16 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 687.5px;
-    top: 225px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
-}
-.tabular {
-  font-family: monospace;
-}
-.five {
-  border-bottom: 40px solid #A0522D;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  height: 0;
-  width: 240px;
-}
-.five:hover {
-  border-bottom: 40px solid #A0522D;
-}
-.button5 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 667.5px;
-    top: 265px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
-}
-.button11 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 25px;
-    left: 677.5px;
-    top: 265px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
-}
-.button17 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 687.5px;
-    top: 265px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
-}
-.tabular {
-  font-family: monospace;
-}
-.six {
-  border-bottom: 40px solid #228B22;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  height: 0;
-  width: 300px;
-}
-.six:hover {
-  border-bottom: 40px solid #228B22;
-}
-.button6 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 667.5px;
-    top: 305px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
-}
-.button12 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 25px;
-    left: 677.5px;
-    top: 305px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
-}
-.button18 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 687.5px;
-    top: 305px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
-}
-.tabular {
-  font-family: monospace;
