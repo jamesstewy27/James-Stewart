@@ -1,0 +1,149 @@
+table, th, td {
+  border: 1.5px solid black;
+  border-collapse: collapse;
+  font-size: 10px;
+}
+th, td {
+  padding: 5px;
+  text-align: center;
+}
+table#t01 {
+  width: 100%;
+  background-color: #A9A9A9;
+}
+td {
+  text-align: left;
+  background-color: #FFFFFF;
+}
+td#t02 {
+  text-align: right;
+  background-color: #D3D3D3;
+}
+td#t03 {
+  text-align: right;
+  background-color: #D3D3D3;
+}
+td#t04 {
+  text-align: right;
+  background-color: #D3D3D3;
+}
+td#t05 {
+  text-align: right;
+  background-color: #D3D3D3;
+}
+td#t06 {
+  text-align: right;
+  background-color: #D3D3D3;
+}
+td#t07 {
+  text-align: center;
+  background-color: #FFFF00;
+}
+td#t08 {
+  text-align: center;
+  background-color: #FFFF00;
+}
+td#t09 {
+  text-align: center;
+  background-color: #FFFF00;
+}
+td#t10 {
+  text-align: center;
+  background-color: #FFFF00;
+}
+td#t11 {
+  text-align: center;
+  background-color: #FFFF00;
+}
+td#t12 {
+  text-align: right;
+  background-color: #D3D3D3;
+}
+td#t13 {
+  text-align: right;
+  background-color: #D3D3D3;
+}
+td#t14 {
+  text-align: right;
+  background-color: #D3D3D3;
+}
+td#t15 {
+  text-align: right;
+  background-color: #D3D3D3;
+}
+td#t16 {
+  text-align: right;
+  background-color: #D3D3D3;
+}
+td#t17 {
+  text-align: right;
+  background-color: #FFFFFF;
+}
+td#t18 {
+  text-align: right;
+  background-color: #FFFFFF;
+}
+td#t19 {
+  text-align: right;
+  background-color: #FFFFFF;
+}
+td#t20 {
+  text-align: right;
+  background-color: #FFFFFF;
+}
+td#t21 {
+  text-align: right;
+  background-color: #FFFFFF;
+}
+td#ta {
+  background-color: #D3D3D3;
+}
+td#tb {
+  background-color: #D3D3D3;
+}
+td#tc {
+  background-color: #D3D3D3;
+}
+td#td {
+  background-color: #D3D3D3;
+}
+h2 {
+  text-align: center;
+  font-size: 0.6em;
+}
+h3 {
+  text-align: center;
+  font-size: 0.6em;
+}
+td#t01i {
+  text-align: right;
+  background-color: #D3D3D3;
+}
+td#t02i {
+  text-align: center;
+  background-color: #FFFF00;
+}
+td#t03i {
+  text-align: right;
+  background-color: #D3D3D3;
+}
+td#t04i {
+  text-align: right;
+  color: white;
+  background-color: #FF0000;
+}
+td#td {
+  background-color: #D3D3D3;
+}
+h2 {
+  text-align: center;
+  font-size: 0.6em;
+}
+h3 {
+  text-align: center;
+  font-size: 0.6em;
+}
+h4 {
+  text-align: left;
+  font-size: 0.6em;
+}
