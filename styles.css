@@ -1,367 +1,149 @@
-body {
-	background-color: #EFEFEF;
+table, th, td {
+  border: 1.5px solid black;
+  border-collapse: collapse;
+  font-size: 10px;
 }
-.shape {
-	margin: auto;
+th, td {
+  padding: 5px;
+  text-align: center;
 }
-.one {
-	width: 0;
-	height: 0;
-	border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
-	border-bottom: 40px solid #FF0000;
+table#t01 {
+  width: 100%;
+  background-color: #A9A9A9;
 }
-.one:hover {
-	border-bottom: 40px solid #FF0000;
+td {
+  text-align: left;
+  background-color: #FFFFFF;
 }
-.button1 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 667.5px;
-    top: 90px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
+td#t02 {
+  text-align: right;
+  background-color: #D3D3D3;
 }
-.button7 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 25px;
-    left: 677.5px;
-    top: 90px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
+td#t03 {
+  text-align: right;
+  background-color: #D3D3D3;
 }
-.button13 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 687.5px;
-    top: 90px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
+td#t04 {
+  text-align: right;
+  background-color: #D3D3D3;
 }
-.tabular {
-  font-family: monospace;
+td#t05 {
+  text-align: right;
+  background-color: #D3D3D3;
 }
-.gap {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #EFEFEF;
+td#t06 {
+  text-align: right;
+  background-color: #D3D3D3;
 }
-.two {
-	border-bottom: 40px solid #FFA500;
-	border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
-	height: 0;
-	width: 60px;
+td#t07 {
+  text-align: center;
+  background-color: #FFFF00;
 }
-.two:hover {
-	border-bottom: 40px solid #FFA500;
+td#t08 {
+  text-align: center;
+  background-color: #FFFF00;
 }
-.button2 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 667.5px;
-    top: 135px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
+td#t09 {
+  text-align: center;
+  background-color: #FFFF00;
 }
-.button8 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 25px;
-    left: 677.5px;
-    top: 135px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
+td#t10 {
+  text-align: center;
+  background-color: #FFFF00;
 }
-.button14 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 687.5px;
-    top: 135px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
+td#t11 {
+  text-align: center;
+  background-color: #FFFF00;
 }
-.tabular {
-  font-family: monospace;
+td#t12 {
+  text-align: right;
+  background-color: #D3D3D3;
 }
-.gap {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #EFEFEF;
+td#t13 {
+  text-align: right;
+  background-color: #D3D3D3;
 }
-.three {
-	border-bottom: 40px solid #FFFF00;
-	border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
-	height: 0;
-	width: 120px;
+td#t14 {
+  text-align: right;
+  background-color: #D3D3D3;
 }
-.three:hover {
-	border-bottom: 40px solid #FFFF00;
+td#t15 {
+  text-align: right;
+  background-color: #D3D3D3;
 }
-.button3 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 667.5px;
-    top: 185px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
+td#t16 {
+  text-align: right;
+  background-color: #D3D3D3;
 }
-.button9 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 25px;
-    left: 677.5px;
-    top: 185px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
+td#t17 {
+  text-align: right;
+  background-color: #FFFFFF;
 }
-.button15 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 687.5px;
-    top: 185px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
+td#t18 {
+  text-align: right;
+  background-color: #FFFFFF;
 }
-.tabular {
-  font-family: monospace;
+td#t19 {
+  text-align: right;
+  background-color: #FFFFFF;
 }
-.four {
-  border-bottom: 40px solid #4682B4;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  height: 0;
-  width: 180px;
+td#t20 {
+  text-align: right;
+  background-color: #FFFFFF;
 }
-.four:hover {
-  border-bottom: 40px solid #4682B4;
+td#t21 {
+  text-align: right;
+  background-color: #FFFFFF;
 }
-.button4 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 667.5px;
-    top: 225px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
+td#ta {
+  background-color: #D3D3D3;
 }
-.button10 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 25px;
-    left: 677.5px;
-    top: 225px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
+td#tb {
+  background-color: #D3D3D3;
 }
-.button16 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 687.5px;
-    top: 225px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
+td#tc {
+  background-color: #D3D3D3;
 }
-.tabular {
-  font-family: monospace;
+td#td {
+  background-color: #D3D3D3;
 }
-.five {
-  border-bottom: 40px solid #A0522D;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  height: 0;
-  width: 240px;
+h2 {
+  text-align: center;
+  font-size: 0.6em;
 }
-.five:hover {
-  border-bottom: 40px solid #A0522D;
+h3 {
+  text-align: center;
+  font-size: 0.6em;
 }
-.button5 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 667.5px;
-    top: 265px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
+td#t01i {
+  text-align: right;
+  background-color: #D3D3D3;
 }
-.button11 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 25px;
-    left: 677.5px;
-    top: 265px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
+td#t02i {
+  text-align: center;
+  background-color: #FFFF00;
 }
-.button17 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 687.5px;
-    top: 265px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
+td#t03i {
+  text-align: right;
+  background-color: #D3D3D3;
 }
-.tabular {
-  font-family: monospace;
+td#t04i {
+  text-align: right;
+  color: white;
+  background-color: #FF0000;
 }
-.six {
-  border-bottom: 40px solid #228B22;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  height: 0;
-  width: 300px;
+td#td {
+  background-color: #D3D3D3;
 }
-.six:hover {
-  border-bottom: 40px solid #228B22;
+h2 {
+  text-align: center;
+  font-size: 0.6em;
 }
-.button6 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 667.5px;
-    top: 305px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
+h3 {
+  text-align: center;
+  font-size: 0.6em;
 }
-.button12 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 25px;
-    left: 677.5px;
-    top: 305px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
+h4 {
+  text-align: left;
+  font-size: 0.6em;
 }
-.button18 {
-  position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    right: 5px;
-    left: 687.5px;
-    top: 305px;
-    color: white;
-    border: 0.10px solid black;
-    background-color: #808080;
-    border-radius: 50%;
-}
-.tabular {
-  font-family: monospace;

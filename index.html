@@ -1,47 +1,267 @@
 <html>
 
-<h1>Figure 1: Food Pyramid (Assignment 1)
-<link rel="stylesheet" type="text/css" href="styles.css" />
-</h1>
+<head>
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
 
 <body>
-<div class="shape one"></div>
-  <div class="button1 tabular">+</div>
-  <div class="button7 tabular"></div>
-  <div class="button13 tabular">-</div>
-  <div class="shape gap"></div>
-<div class="shape two"></div>
-  <div class="button2 tabular">+</div>
-  <div class="button8 tabular"></div>
-  <div class="button14 tabular">-</div>
-  <div class="shape gap"></div>
-<div class="shape three"></div>
-  <div class="button3 tabular">+</div>
-  <div class="button9 tabular"></div>
-  <div class="button15 tabular">-</div>
-<div class="shape four"></div>
-  <div class="button4 tabular">+</div>
-  <div class="button10 tabular"></div>
-  <div class="button16 tabular">-</div>
-  <div class="shape five"></div>
-  <div class="button5 tabular">+</div>
-  <div class="button11 tabular"></div>
-  <div class="button17 tabular">-</div>
-  <div class="shape six"></div>
-  <div class="button6 tabular">+</div>
-  <div class="button12 tabular"></div>
-  <div class="button18 tabular">-</div>
+
+<table id="t01" >
+  <tr>
+    <th>Student Name</th>
+    <th>Student ID</th>
+    <th>Assignment 1</th>
+    <th>Assignment 2</th>
+    <th>Assignment 3</th>
+    <th>Assignment 4</th>
+    <th>Assignment 5</th>
+    <th>Average [%]</th>
+
+  </tr>
+
+  <button onclick="button1">Final Grade</button>
+
+<h2><b>Student Grades Table</b></h2>
+
+  <tr>
+    <td id="ta">Joe Bloggs</td>
+    <td id="tb">123456789</td>
+    <td id="t02">
+
+    <script>
+    contentEditableSpan.addEventListener("input", function () {
+        document.getElementById("t02").innerHTML = "CONTENT: " + document.getElementById("contentEditableSpan").innerHTML;
+    });
+    </script>
+
+    85</td>
+    <td id="t03">
+
+    <script>
+    contentEditableSpan.addEventListener("input", function () {
+        document.getElementById("t03").innerHTML = "CONTENT: " + document.getElementById("contentEditableSpan").innerHTML;
+    });
+    </script>
+
+    80</td>
+    <td id="t04">
+
+    <script>
+    contentEditableSpan.addEventListener("input", function () {
+        document.getElementById("t04").innerHTML = "CONTENT: " + document.getElementById("contentEditableSpan").innerHTML;
+    });
+    </script>
+
+    75</td>
+    <td id="t05">
+
+    <script>
+    contentEditableSpan.addEventListener("input", function () {
+        document.getElementById("t05").innerHTML = "CONTENT: " + document.getElementById("contentEditableSpan").innerHTML;
+    });
+    </script>
+
+    70</td>
+    <td id="t06">
+
+    <script>
+    contentEditableSpan.addEventListener("input", function () {
+        document.getElementById("t06").innerHTML = "CONTENT: " + document.getElementById("contentEditableSpan").innerHTML;
+    });
+    </script>
+
+    65</td>
+    <td id="t01i">
+
+    <script>
+    document.getElementById("t01i").innerHTML =
+    (85 + 80 + 75 + 70 + 65)/5;
+
+    </script>
+
+    %</td>
+    </tr>
+
+  <tr>
+    <td>Jim Bloggs</td>
+    <td>987465321</td>
+    <td id="t07">
+
+    <script>
+    contentEditableSpan.addEventListener("input", function () {
+        document.getElementById("t07").innerHTML = "CONTENT: " + document.getElementById("contentEditableSpan").innerHTML;
+    });
+    </script>
+
+    -</td>
+    <td id="t08">
+
+    <script>
+    contentEditableSpan.addEventListener("input", function () {
+        document.getElementById("t08").innerHTML = "CONTENT: " + document.getElementById("contentEditableSpan").innerHTML;
+    });
+    </script>
+
+    -</td>
+    <td id="t09">
+
+    <script>
+    contentEditableSpan.addEventListener("input", function () {
+        document.getElementById("t09").innerHTML = "CONTENT: " + document.getElementById("contentEditableSpan").innerHTML;
+    });
+    </script>
+
+    -</td>
+    <td id="t10">
+
+    <script>
+    contentEditableSpan.addEventListener("input", function () {
+        document.getElementById("t10").innerHTML = "CONTENT: " + document.getElementById("contentEditableSpan").innerHTML;
+    });
+    </script>
+
+    -</td>
+    <td id="t11">
+
+    <script>
+    contentEditableSpan.addEventListener("input", function () {
+        document.getElementById("t11").innerHTML = "CONTENT: " + document.getElementById("contentEditableSpan").innerHTML;
+    });
+    </script>
+
+    -</td>
+    <td id="t02i">
+
+    <script>
+    document.getElementById("t02i").innerHTML =
+    (- + - + - + - + -)/5;
+    </script>
+
+    -</td>
+    </tr>
+
+  <tr>
+    <td id="tc">Jay Bloggs</td>
+    <td id="td">234567890</td>
+    <td id="t12">
+
+    <script>
+    contentEditableSpan.addEventListener("input", function () {
+        document.getElementById("t12").innerHTML = "CONTENT: " + document.getElementById("contentEditableSpan").innerHTML;
+    });
+    </script>
+
+    75</td>
+    <td id="t13">
+
+    <script>
+    contentEditableSpan.addEventListener("input", function () {
+        document.getElementById("t13").innerHTML = "CONTENT: " + document.getElementById("contentEditableSpan").innerHTML;
+    });
+    </script>
+
+    70</td>
+    <td id="t14">
+
+    <script>
+    contentEditableSpan.addEventListener("input", function () {
+        document.getElementById("t14").innerHTML = "CONTENT: " + document.getElementById("contentEditableSpan").innerHTML;
+    });
+    </script>
+
+    65</td>
+    <td id="t15">
+
+    <script>
+    contentEditableSpan.addEventListener("input", function () {
+        document.getElementById("t15").innerHTML = "CONTENT: " + document.getElementById("contentEditableSpan").innerHTML;
+    });
+    </script>
+
+    60</td>
+    <td id="t16">
+
+    <script>
+    contentEditableSpan.addEventListener("input", function () {
+        document.getElementById("t16").innerHTML = "CONTENT: " + document.getElementById("contentEditableSpan").innerHTML;
+    });
+    </script>
+
+    55</td>
+    <td id="t03i">
+
+    <script>
+    document.getElementById("t03i").innerHTML =
+    (75 + 70 + 65 + 60 + 55)/5;
+    </script>
+
+    %</td>
+    </tr>
+
+  <tr>
+    <td>John Bloggs</td>
+    <td>345678900</td>
+    <td id="t17">
+
+    <script>
+    contentEditableSpan.addEventListener("input", function () {
+        document.getElementById("t17").innerHTML = "CONTENT: " + document.getElementById("contentEditableSpan").innerHTML;
+    });
+    </script>
+
+    65</td>
+    <td id="t18">
+
+    <script>
+    contentEditableSpan.addEventListener("input", function () {
+        document.getElementById("t18").innerHTML = "CONTENT: " + document.getElementById("contentEditableSpan").innerHTML;
+    });
+    </script>
+
+    60</td>
+    <td id="t19">
+
+    <script>
+    contentEditableSpan.addEventListener("input", function () {
+        document.getElementById("t19").innerHTML = "CONTENT: " + document.getElementById("contentEditableSpan").innerHTML;
+    });
+    </script>
+
+    55</td>
+    <td id="t20">
+
+    <script>
+    contentEditableSpan.addEventListener("input", function () {
+        document.getElementById("t20").innerHTML = "CONTENT: " + document.getElementById("contentEditableSpan").innerHTML;
+    });
+    </script>
+
+    50</td>
+    <td id="t21">
+
+    <script>
+    contentEditableSpan.addEventListener("input", function () {
+        document.getElementById("t21").innerHTML = "CONTENT: " + document.getElementById("contentEditableSpan").innerHTML;
+    });
+    </script>
+
+    45</td>
+    <td id="t04i">
+
+    <script>
+    document.getElementById("t04i").innerHTML =
+    (65 + 60 + 55 + 50 + 45)/5;
+    </script>
+
+    %</td>
+    </tr>
+
+</table>
+
 </body>
 
-<!--date input section-->
-<input type="date" id="todayDate">
-    &nbsp;
-<button onclick="myFunction()">Enter Date</button>
+<h3><b>Figure 1</b></h3>
 
-<div id="date-div">
-  <p class="date-text">My Food Pyramid</p>
-  <p class="zone date-text"id="date-reversed">[dd/mm/yyyy]</p>
-</div>
-<!--date input section end-->
+<h4><b>Unsubmitted Assignments: 5</b></h4>
 
 </html>
